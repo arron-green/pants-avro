@@ -1,0 +1,9 @@
+@namespace("org.foo.bar")
+protocol FooBar {
+    record Person {
+        long DateCreated;
+        string FirstName;
+        string LastName;
+    }
+}
+
