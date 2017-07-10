@@ -1,7 +1,7 @@
 scala_library(
   name='_myapp_lib',
   dependencies=[
-    '3rdparty/jvm:avro',
+    '3rdparty/jvm/apache/avro',
     'src/main/avro:people',
     'src/main/avro:example',
   ],

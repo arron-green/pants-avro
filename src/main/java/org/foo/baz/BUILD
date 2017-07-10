@@ -1,0 +1,9 @@
+jvm_binary(
+  name='baz-example',
+  source='Main.java',
+  main='org.foo.baz.Main',
+  dependencies=[
+    '3rdparty/jvm/apache/avro',
+    'src/main/avro:example-java',
+  ],
+)
